@@ -1,12 +1,14 @@
 import React from "react";
 import { Box, Typography, Container, Avatar } from "@mui/material";
+import profilePic from "../assets/images/profile.jpg";
+
 
 const About = () => {
   return (
     <Container id="about" sx={{ py: 8 }}>
       <Box sx={{ textAlign: "center" }}>
         <Avatar
-          src="/assets/images/profile.jpg"
+          src={profilePic}
           alt="Manisha Ranga"
           sx={{
             width: { xs: 100, sm: 150 },

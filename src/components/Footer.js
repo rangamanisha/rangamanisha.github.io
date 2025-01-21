@@ -8,9 +8,8 @@ const Footer = () => {
       component="footer"
       sx={{
         py: 4,
-        mt: 8,
-        backgroundColor: "#1976d2", // Primary color
-        color: "#fff",
+        backgroundColor: "#F3F4F6",
+        borderTop: "1px solid #E5E7EB",
         textAlign: "center",
       }}
     >
@@ -44,7 +43,7 @@ const Footer = () => {
           <Email />
         </IconButton>
       </Box>
-      <Typography variant="body2">
+      <Typography variant="body2" color="text.secondary">
         © {new Date().getFullYear()} Manisha Ranga. All Rights Reserved.
       </Typography>
     </Box>
@@ -52,3 +51,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+

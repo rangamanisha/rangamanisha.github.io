@@ -6,20 +6,20 @@ const projects = [
   {
     title: "GIFTI Global",
     description: "A platform for global gifting solutions.",
-    image: "https://giftiglobal.com/assets/images/logo.png", // Update with actual logo
-    route: "/project/gifti-global",
+    image: "https://giftiglobal.com/static/media/logo.deb8b8b0.svg", // Update with actual logo
+    route: "https://giftiglobal.com/",
   },
   {
     title: "Woblu",
     description: "A water optimization platform.",
-    image: "https://woblu.ca/logo.png", // Update with actual logo
-    route: "/project/woblu",
+    image: "https://woblu.ca/wp-content/uploads/2024/06/Asset-6WOBLU.svg", // Update with actual logo
+    route: "https://woblu.ca/",
   },
   {
     title: "Studemp",
     description: "Cambrian College's student employment portal.",
-    image: "https://studemp.cambriancollege.ca/images/logo.png", // Update with actual logo
-    route: "/project/studemp",
+    image: "https://studemp.cambriancollege.ca/site/images/2024-02-01/r79119343991315299214190440970158213462043242048r/CC_HOR_BURGGOLDr17353002947534202017678564902375078550251364043172r.png", // Update with actual logo
+    route: "https://studemp.cambriancollege.ca/home.htm",
   },
 ];
 
@@ -33,7 +33,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card>
-              <Link to={project.route} style={{ textDecoration: "none" }}>
+            <a href={project.route} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                 <CardMedia
                   component="img"
                   height="200"
@@ -48,7 +48,7 @@ const Projects = () => {
                     {project.description}
                   </Typography>
                 </CardContent>
-              </Link>
+              </a>
             </Card>
           </Grid>
         ))}

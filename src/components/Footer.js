@@ -19,7 +19,7 @@ const Footer = () => {
       <Box sx={{ display: "flex", justifyContent: "center", gap: 2, mb: 2 }}>
         <IconButton
           component={Link}
-          href="https://github.com/your-profile"
+          href="https://github.com/rangamanisha"
           target="_blank"
           rel="noopener"
           color="inherit"
@@ -37,7 +37,7 @@ const Footer = () => {
         </IconButton>
         <IconButton
           component={Link}
-          href="mailto:your-email@example.com"
+          href="mailto:rangamanisha11@gmail.com"
           color="inherit"
         >
           <Email />

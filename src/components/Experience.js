@@ -18,7 +18,7 @@ const experiences = [
   {
     role: "Software Product Manager",
     company: "Philips Consulting",
-    duration: "Dec 2024 – Present",
+    duration: "Nov 2024 – Present",
     description:
       "Led the design, development, and implementation of innovative product roadmaps. Successfully managed cross-functional teams and delivered customer-focused solutions, improving adoption by 30%.",
   },
@@ -35,6 +35,20 @@ const experiences = [
     duration: "Nov 2022 – April 2023",
     description:
       "Implemented API integrations to improve system response times by 20% and enhanced CRM customizations, boosting user engagement by 35%.",
+  },
+  {
+    role: "Software Engineer",
+    company: "Cognizant Technologies",
+    duration: "May 2021 – May 2022",
+    description:
+      "Designed and developed REST APIs in Node.js and Express, enhancing system modularity. Migrated JavaScript frontend to React.js, improved state management with Redux, and optimized CI/CD automation.",
+  },
+  {
+    role: "Software Engineer",
+    company: "Mannkey Electronics",
+    duration: "Feb 2018  – May 2021",
+    description:
+      "Led enterprise application modernization by developing scalable UI components in React.js. Optimized backend APIs using .NET Core and SQL Server for enhanced performance.",
   },
 ];
 

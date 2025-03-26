@@ -11,13 +11,13 @@ const projects = [
   },
   {
     title: "Woblu",
-    description: "A water optimization platform.",
+    description: "Mobile and Web app for Handy mans to get jobs.",
     image: "https://woblu.ca/wp-content/uploads/2024/06/Asset-6WOBLU.svg", // Update with actual logo
     route: "https://woblu.ca/",
   },
   {
     title: "Studemp",
-    description: "Cambrian College's student employment portal.",
+    description: "Cambrian College's Alumni portal.",
     image: "https://studemp.cambriancollege.ca/site/images/2024-02-01/r79119343991315299214190440970158213462043242048r/CC_HOR_BURGGOLDr17353002947534202017678564902375078550251364043172r.png", // Update with actual logo
     route: "https://studemp.cambriancollege.ca/home.htm",
   },
@@ -41,7 +41,7 @@ const Projects = () => {
                   alt={project.title}
                 />
                 <CardContent>
-                  <Typography variant="h6" color="primary">
+                  <Typography variant="h6" color="#702963">
                     {project.title}
                   </Typography>
                   <Typography variant="body2" color="text.secondary">

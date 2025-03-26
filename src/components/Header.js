@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <AppBar position="sticky" color="default" elevation={2}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-        <Typography variant="h6" color="black">
+        <Typography variant="h4" color="#DAB1DA">
           MANISHA RANGA
         </Typography>
         <Box>

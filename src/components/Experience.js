@@ -54,7 +54,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <Box id="experience" sx={{ py: 8, backgroundColor: "#e3f2fd" }}>
+    <Box id="experience" sx={{ py: 8, backgroundColor: "#DAB1DA" }}>
       <Typography variant="h4" align="center" gutterBottom sx={{ color: "#0d47a1" }}>
         Professional Experience
       </Typography>

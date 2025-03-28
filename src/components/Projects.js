@@ -36,7 +36,12 @@ const Projects = () => {
             <a href={project.route} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                 <CardMedia
                   component="img"
-                  height="200"
+                  sx={{
+                    height: 150, // Adjust the height as needed
+                    objectFit: "contain", // Ensures image fits properly inside the card
+                    padding: "10px", // Adds spacing inside the card
+                    backgroundColor: "#f5f5f5", // Optional: background color to handle transparency
+                  }}
                   image={project.image}
                   alt={project.title}
                 />

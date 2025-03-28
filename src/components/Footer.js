@@ -13,9 +13,12 @@ const Footer = () => {
         textAlign: "center",
       }}
     >
-      <Typography variant="body1" gutterBottom>
-        Connect with me
-      </Typography>
+      <Typography variant="h5" color="#702963" sx={{ mt: 4 }}>
+          Let’s Connect!
+        </Typography>
+        <Typography variant="body1" color="text.secondary">
+          If you’re looking for an experienced Full-Stack Developer, Software Engineer, or Product Manager who can drive business success through innovative solutions, let’s connect!
+        </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", gap: 2, mb: 2 }}>
         <IconButton
           component={Link}

@@ -5,6 +5,8 @@ import {
   
   Paper,
 } from "@mui/material";
+
+//Here, importing the json object which is storing the job, role and description info in key, value pair.
 import {
     Timeline,
     TimelineItem,
@@ -18,7 +20,7 @@ const experiences = [
   {
     role: "Software Product Manager",
     company: "Philips Consulting",
-    duration: "Nov 2024 – Present",
+    duration: "Nov 2024 – Feb 2025",
     description:
       "Led the design, development, and implementation of innovative product roadmaps. Successfully managed cross-functional teams and delivered customer-focused solutions, improving adoption by 30%.",
   },
@@ -51,11 +53,11 @@ const experiences = [
       "Led enterprise application modernization by developing scalable UI components in React.js. Optimized backend APIs using .NET Core and SQL Server for enhanced performance.",
   },
 ];
-
+// This is the experience component which shows the roles, timeline and the description of the job.
 const Experience = () => {
   return (
     <Box id="experience" sx={{ py: 8, backgroundColor: "#DAB1DA" }}>
-      <Typography variant="h4" align="center" gutterBottom sx={{ color: "#0d47a1" }}>
+      <Typography variant="h4" align="center" gutterBottom sx={{ color: "black" }}>
         Professional Experience
       </Typography>
       <Timeline position="alternate">

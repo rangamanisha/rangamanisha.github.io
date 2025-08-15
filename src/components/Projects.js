@@ -10,14 +10,14 @@ const projects = [
     route: "https://giftiglobal.com/",
   },
   {
-    title: "Woblu",
-    description: "A water optimization platform.",
-    image: "https://woblu.ca/wp-content/uploads/2024/06/Asset-6WOBLU.svg", // Update with actual logo
-    route: "https://woblu.ca/",
+    title: "Give To Africa",
+    description: "Non-Profit CRM Platform to bring Donors and Donees together.",
+    image: "https://gta-frontend-phi.vercel.app/give.png", // Update with actual logo
+    route: "https://gta-frontend-phi.vercel.app/",
   },
   {
-    title: "Studemp",
-    description: "Cambrian College's student employment portal.",
+    title: "Alumni Web Portal",
+    description: "Cambrian College's Alumni portal.",
     image: "https://studemp.cambriancollege.ca/site/images/2024-02-01/r79119343991315299214190440970158213462043242048r/CC_HOR_BURGGOLDr17353002947534202017678564902375078550251364043172r.png", // Update with actual logo
     route: "https://studemp.cambriancollege.ca/home.htm",
   },
@@ -36,12 +36,17 @@ const Projects = () => {
             <a href={project.route} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                 <CardMedia
                   component="img"
-                  height="200"
+                  sx={{
+                    height: 150, // Adjust the height as needed
+                    objectFit: "contain", // Ensures image fits properly inside the card
+                    padding: "10px", // Adds spacing inside the card
+                    backgroundColor: "#f5f5f5", // Optional: background color to handle transparency
+                  }}
                   image={project.image}
                   alt={project.title}
                 />
                 <CardContent>
-                  <Typography variant="h6" color="primary">
+                  <Typography variant="h6" color="#702963">
                     {project.title}
                   </Typography>
                   <Typography variant="body2" color="text.secondary">

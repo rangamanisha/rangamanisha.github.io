@@ -23,7 +23,7 @@ const About = () => {
           Software Engineer | Full-Stack Developer | AI Enthusiast
         </Typography>
         <Typography variant="body1" color="text.secondary" paragraph>
-          I’m a problem-solving, innovation-driven Software Engineer with a passion for building scalable, high-performance applications. With 6+ years of experience in React.js, JavaScript, .NET (C#), Node.js, Express.js, MySQL, MongoDB, and cloud technologies, I specialize in modern web and mobile development, AI-driven solutions, and system optimization.
+          I’m a problem-solving, innovation-driven Software Engineer with a passion for building scalable, high-performance applications. With 8 years of experience in React.js, JavaScript, .NET (C#), Node.js, Express.js, MySQL, MongoDB, and cloud technologies, I specialize in modern web and mobile development, AI-driven solutions, and system optimization.
         </Typography>
         <Typography variant="body1" color="text.secondary" paragraph>
           As a Google Women Techmakers Ambassador and GDG Organizer, I mentor, speak, and teach, empowering women in tech and driving the future of software innovation. Whether it's full-stack development, product management, or AI-powered analytics, I thrive on creating impactful tech solutions.
@@ -59,14 +59,7 @@ const About = () => {
               🔍 <strong>Open to New Opportunities</strong> – Excited to explore software engineering, product management, and AI-driven solutions.
             </Typography>
           </Grid>
-        </Grid>
-
-        <Typography variant="h5" color="#702963" sx={{ mt: 4 }}>
-          Let’s Connect!
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          If you’re looking for an experienced Full-Stack Developer, Software Engineer, or Product Manager who can drive business success through innovative solutions, let’s connect!
-        </Typography>
+        </Grid>  
       </Box>
     </Container>
   );

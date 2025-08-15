@@ -26,7 +26,7 @@ const Skills = () => {
       }}
     >
       <Typography variant="h4" gutterBottom sx={{ mb: 4, color: "#333" }}>
-        These Are The Tools and Skills I Use to Build Stuff
+      Bringing ideas to life with cutting-edge tech!
       </Typography>
       <Box
         sx={{

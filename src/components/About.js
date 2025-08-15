@@ -59,14 +59,7 @@ const About = () => {
               🔍 <strong>Open to New Opportunities</strong> – Excited to explore software engineering, product management, and AI-driven solutions.
             </Typography>
           </Grid>
-        </Grid>
-
-        <Typography variant="h5" color="#702963" sx={{ mt: 4 }}>
-          Let’s Connect!
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          If you’re looking for an experienced Full-Stack Developer, Software Engineer, or Product Manager who can drive business success through innovative solutions, let’s connect!
-        </Typography>
+        </Grid>  
       </Box>
     </Container>
   );

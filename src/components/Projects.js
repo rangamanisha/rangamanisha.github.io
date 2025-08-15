@@ -10,10 +10,10 @@ const projects = [
     route: "https://giftiglobal.com/",
   },
   {
-    title: "Woblu",
-    description: "Mobile and Web app for Handy mans to get jobs.",
-    image: "https://woblu.ca/wp-content/uploads/2024/06/Asset-6WOBLU.svg", // Update with actual logo
-    route: "https://woblu.ca/",
+    title: "Give To Africa",
+    description: "Non-Profit CRM Platform to bring Donors and Donees together.",
+    image: "https://gta-frontend-phi.vercel.app/give.png", // Update with actual logo
+    route: "https://gta-frontend-phi.vercel.app/",
   },
   {
     title: "Studemp",

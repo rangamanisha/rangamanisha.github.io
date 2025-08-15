@@ -18,21 +18,21 @@ import {
 
 const experiences = [
   {
-    role: "Software Product Manager",
+    role: "Software Engineer",
     company: "Philips Consulting",
     duration: "Nov 2024 – Feb 2025",
     description:
       "Led the design, development, and implementation of innovative product roadmaps. Successfully managed cross-functional teams and delivered customer-focused solutions, improving adoption by 30%.",
   },
   {
-    role: "Software Product Manager",
+    role: "Software Engineer",
     company: "Creative GOAT",
     duration: "July 2023 – Sept 2024",
     description:
       "Spearheaded the creation of user-centered design roadmaps. Authored epics and user stories that aligned with business objectives, driving a 20% increase in sprint success rates.",
   },
   {
-    role: "Software Product Developer",
+    role: "Software Engineer",
     company: "Centre for Smart Mining",
     duration: "Nov 2022 – April 2023",
     description:
